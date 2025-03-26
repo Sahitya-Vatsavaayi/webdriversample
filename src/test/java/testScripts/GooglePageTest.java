@@ -35,6 +35,7 @@ public class GooglePageTest {
   driver.findElement(By.cssSelector("#username")).sendKeys("tomsmith");
   driver.findElement(By.cssSelector("input[name=password]")).sendKeys("SuperSecretPassword!");
   driver.findElement(By.cssSelector(".radius")).click();
+  driver.quit();
   }
   
 }
