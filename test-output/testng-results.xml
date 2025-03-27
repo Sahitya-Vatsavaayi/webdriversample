@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T17:56:30 IST" name="Default suite" finished-at="2025-03-25T17:56:35 IST" duration-ms="4725">
+  <suite started-at="2025-03-27T18:11:46 IST" name="Default suite" finished-at="2025-03-27T18:11:55 IST" duration-ms="9430">
     <groups>
     </groups>
-    <test started-at="2025-03-25T17:56:30 IST" name="Default test" finished-at="2025-03-25T17:56:35 IST" duration-ms="4725">
-      <class name="testScripts.RelativeLocatorTest">
-        <test-method signature="RelativeLocator()[pri:0, instance:testScripts.RelativeLocatorTest@45099dd3]" started-at="2025-03-25T17:56:30 IST" name="RelativeLocator" finished-at="2025-03-25T17:56:35 IST" duration-ms="4667" status="PASS">
+    <test started-at="2025-03-27T18:11:46 IST" name="Default test" finished-at="2025-03-27T18:11:55 IST" duration-ms="9430">
+      <class name="testScripts.Dropdowns">
+        <test-method signature="dropdwn()[pri:0, instance:testScripts.Dropdowns@4b45a2f5]" started-at="2025-03-27T18:11:46 IST" name="dropdwn" finished-at="2025-03-27T18:11:55 IST" duration-ms="9296" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RelativeLocator -->
-      </class> <!-- testScripts.RelativeLocatorTest -->
+        </test-method> <!-- dropdwn -->
+      </class> <!-- testScripts.Dropdowns -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

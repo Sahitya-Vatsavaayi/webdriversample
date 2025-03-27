@@ -33,10 +33,14 @@ public class GooglePageTest {
 	  //driver.get("https://accounts.lambdatest.com/register");
 	//  driver.findElement(By.xpath("//form[@class='form reg-custom']//input[@id='email']")).sendKeys("sahi@gmail.com");
   driver.findElement(By.cssSelector("#username")).sendKeys("tomsmith");
-  driver.findElement(By.cssSelector("input[name=password]")).sendKeys("SuperSecretPassword!");
-  driver.findElement(By.cssSelector(".radius")).click();
-  driver.getTitle();	  
-  driver.quit();
+ WebElement sah= driver.findElement(By.cssSelector("input[name=password]"));
+ sah.sendKeys("SuperSecretPassword!");
+ sah.clear();
+ //sah.sendKeys(Keys.ENTER);
+  driver.findElement(By.cssSelector(".radius")).submit();
+  
+  //driver.getTitle();	  
+  //driver.quit();
   }
   
 }
