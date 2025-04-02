@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.MouseActions">
+      <class name="testScripts.MultipleMethods">
         <methods>
-          <include name="mouseAct"/>
+          <include name="setup"/>
+          <include name="closewindow"/>
+          <include name="storiesSearch"/>
         </methods>
-      </class> <!-- testScripts.MouseActions -->
+      </class> <!-- testScripts.MultipleMethods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
