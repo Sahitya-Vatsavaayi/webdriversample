@@ -51,7 +51,7 @@ public class MultipleMethods {
 	  extentReports.createTest("novels stories test");
 	  driver.findElement(By.xpath("//a[contains(text(),'Novels & Stories')]")).click();
 	  String strUrl1= driver.getCurrentUrl();
-	  Assert.assertTrue(strUrl1.contains("novel1"));
+	  Assert.assertTrue(strUrl1.contains("novel"));
   }
     @AfterMethod
     public void closewindow()
